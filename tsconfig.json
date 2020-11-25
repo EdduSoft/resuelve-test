@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "rootDir": "./",
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2015",
+      "es6",
+      "dom",
+      "dom.iterable"
+    ]
+  },
+  "exclude": ["node_modules"]
+}

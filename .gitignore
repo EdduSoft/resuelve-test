@@ -1,0 +1,6 @@
+.build/
+.serverless/
+dist/
+.env
+node_modules
+documentation/
